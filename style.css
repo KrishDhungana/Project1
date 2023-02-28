@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: SlateGrey ;
+  padding: 10px;
+}
+
+/* Style the top */
+.top {
+  background-color: WhiteSmoke;
+  padding:1px;
+  text-align: center;
+  font-size: 12px;
+  color: DarkGreen;
+  border-style: double;
+  border-width: 7px;
+  width:60%;
+  margin: auto;
+}
+
+/* Style the header */
+.header {
+  background-color: LightSteelBlue ;
+  padding: 2px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Courier New;
+  width: 100%;
+}
+
+/* Text Based Input */
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid lightblue;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+/* Submit Button Input */
+input[type=submit] {
+  	width: 100%;
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+/* Date of Birth Input */
+input[type=date]{
+	width:20%;
+	border: 1px solid lightblue;
+	display: inline-block;
+	margin: 5px 0;
+	padding: 5px 5px;
+	box-sizing: border-box;
+	font-family: "Times New Roman", Times, serif;
+	font-size:11px;
+}
+
+/* Email Address Input */
+input[type=email]{
+	width:100%;
+	border: 1px solid lightblue;
+	display: inline-block;
+	margin: 5px 0;
+	padding: 8px 5px;
+	box-sizing: border-box;
+}
+
+/* Submit Input Hover */
+input[type=submit]:hover {
+  	background-color: #45a049;
+}
+
+/* Overall Form Setup */
+.form {
+  	border-radius: 5px;
+  	background-color: LightSteelBlue;
+  	padding: 20px;
+  	border-style: solid;
+  	color: LightSteelBlue;
+  	
+}
+
+/* Phone Number Input */
+input[type=tel]{
+	width:100%;
+	border: 1px solid lightblue;
+	display: inline-block;
+	margin: 5px 0;
+	padding: 8px 5px;
+	box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+}
