@@ -19,6 +19,7 @@ body {
 
 /* Style the header */
 .header {
+  background-image: url("bac.jpg.jpg");
   background-color: #8A817C;
   padding: 2px;
   margin: 5px;
@@ -27,6 +28,34 @@ body {
   font-family: 'Playfair Display', serif;
   width: 100%;
   color: white;
+}
+
+/* Style the features */
+.info{
+  background-color: #BCB8B1;
+  padding: 2px;
+  margin: auto;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Playfair Display', serif;
+  width: 95%;
+  color: white;
+  border-style: double;
+  border-color: SlateGrey;
+  border-width: 4px;
+}
+
+.feature-head{
+  text-decoration: underline;
+  font-size:25px;
+  color: White;
+}
+
+
+.head1{
+  text-decoration: underline;
+  font-size:25px;
+  color: White;
 }
 
 /* Text Based Input */
@@ -137,8 +166,4 @@ img {
   float: right;
   border: 2px solid; 
   border-color: SlateGrey;
-}
-
-.head1{
-  text-decoration: underline;
 }
