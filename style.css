@@ -1,16 +1,16 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: SlateGrey ;
+  font-family: 'Playfair Display', serif;
+  background-color: #F4F3EE;
   padding: 10px;
 }
 
 /* Style the top */
 .top {
-  background-color: WhiteSmoke;
+  background-color: #8A817C;
   padding:1px;
   text-align: center;
   font-size: 12px;
-  color: DarkGreen;
+  color: seashell;
   border-style: double;
   border-width: 7px;
   width:60%;
@@ -19,12 +19,14 @@ body {
 
 /* Style the header */
 .header {
-  background-color: LightSteelBlue ;
+  background-color: #8A817C;
   padding: 2px;
+  margin: 5px;
   text-align: center;
   font-size: 15px;
   font-family: Courier New;
   width: 100%;
+  color: white;
 }
 
 /* Text Based Input */
@@ -33,7 +35,7 @@ input[type=text], select {
 	padding: 12px 20px;
   	margin: 8px 0;
   	display: inline-block;
-  	border: 1px solid lightblue;
+  	border: 2px solid #463F3A;
   	border-radius: 4px;
   	box-sizing: border-box;
 }
@@ -41,8 +43,8 @@ input[type=text], select {
 /* Submit Button Input */
 input[type=submit] {
   	width: 100%;
-  	background-color: #4CAF50;
-  	color: white;
+  	background-color: #463F3A;
+  	color: #F4F3EE;
   	padding: 14px 20px;
   	margin: 8px 0;
   	border: none;
@@ -53,7 +55,7 @@ input[type=submit] {
 /* Date of Birth Input */
 input[type=date]{
 	width:20%;
-	border: 1px solid lightblue;
+	border: 2px solid #463F3A;
 	display: inline-block;
 	margin: 5px 0;
 	padding: 5px 5px;
@@ -65,7 +67,7 @@ input[type=date]{
 /* Email Address Input */
 input[type=email]{
 	width:100%;
-	border: 1px solid lightblue;
+	border: 2px solid #463F3A;
 	display: inline-block;
 	margin: 5px 0;
 	padding: 8px 5px;
@@ -80,27 +82,28 @@ input[type=submit]:hover {
 /* Overall Form Setup */
 .form {
   	border-radius: 5px;
-  	background-color: LightSteelBlue;
+  	background-color: #BCB8B1;
   	padding: 20px;
   	border-style: solid;
-  	color: LightSteelBlue;
+  	color: White;
+  	border-color: SlateGrey;
 }
 
 .col-2{
 	border-radius: 5px;
-	background-color: LightSteelBlue;
+	background-color: #BCB8B1;
   	padding: 20px;
   	border-style: solid;
   	border-color: SlateGrey;
-  	color: black;
-  	font-family: Courier New;
+  	color: White;
+  	font-family: 'Playfair Display', serif;
   	text-align: center;
 }
 
 /* Phone Number Input */
 input[type=tel]{
 	width:100%;
-	border: 1px solid lightblue;
+	border: 2px solid #463F3A;
 	display: inline-block;
 	margin: 5px 0;
 	padding: 8px 5px;
@@ -120,4 +123,6 @@ input[type=tel]{
 img {
   border-radius: 90%;
   float: right;
+  border: 2px solid; 
+  border-color: SlateGrey;
 }
