@@ -139,6 +139,6 @@ img {
   border-color: SlateGrey;
 }
 
-.head{
- color: black;
+.head1{
+  text-decoration: underline;
 }
