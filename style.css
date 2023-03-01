@@ -24,7 +24,7 @@ body {
   margin: 5px;
   text-align: center;
   font-size: 15px;
-  font-family: Courier New;
+  font-family: 'Playfair Display', serif;
   width: 100%;
   color: white;
 }
@@ -60,7 +60,7 @@ input[type=date]{
 	margin: 5px 0;
 	padding: 5px 5px;
 	box-sizing: border-box;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Playfair Display', serif;
 	font-size:11px;
 }
 
@@ -97,7 +97,19 @@ input[type=submit]:hover {
   	border-color: SlateGrey;
   	color: White;
   	font-family: 'Playfair Display', serif;
-  	text-align: center;
+  	text-align: left;
+  	list-style-position: inside;
+}
+
+ul{
+  font-family: 'Playfair Display', serif;
+  list-style-type: square;
+}
+
+li{
+  font-family: 'Playfair Display', serif;
+  margin: 10px 0;
+  font-size: 18px;
 }
 
 /* Phone Number Input */
