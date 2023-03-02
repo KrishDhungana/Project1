@@ -1,3 +1,4 @@
+/* Style the body */
 body {
 	font-family: 'Playfair Display', serif;
 	background-color: #F4F3EE;
@@ -17,6 +18,7 @@ body {
 	margin: auto;
 }
 
+/* Style the ad (Top of Page) */
 .ad {
 	background-color: #8A817C;
 	padding: 1px;
@@ -57,6 +59,7 @@ body {
 	border-width: 4px;
 }
 
+/* Style Heading of Features */
 .feature-head {
 	text-decoration: underline;
 	font-size: 25px;
@@ -64,7 +67,7 @@ body {
 	margin: 8px;
 }
 
-
+/* Style decoration of head*/
 .head1 {
 	text-decoration: underline;
 	font-size: 25px;
@@ -132,6 +135,7 @@ input[type=submit]:hover {
 	border-color: SlateGrey;
 }
 
+/* Right hand side column Style */
 .col-2 {
 	border-radius: 5px;
 	background-color: #BCB8B1;
@@ -144,11 +148,13 @@ input[type=submit]:hover {
 	list-style-position: inside;
 }
 
+/* Col.2 List Style */
 ul {
 	font-family: 'Playfair Display', serif;
 	list-style-type: square;
 }
 
+/* Col.2 List Style */
 li {
 	font-family: 'Playfair Display', serif;
 	margin: 10px 0;
@@ -165,16 +171,18 @@ input[type=tel] {
 	box-sizing: border-box;
 }
 
+/* Col.1 and Col.2 Row Style */
 .row {
 	display: flex;
 }
 
-/* Create two equal columns that sits next to each other */
+/* Create two equal columns */
 .column {
 	flex: 50%;
 	padding: 10px;
 }
 
+/* Style image in col.2 */
 img {
 	border-radius: 90%;
 	float: right;
@@ -182,6 +190,7 @@ img {
 	border-color: SlateGrey;
 }
 
+/* Media Queries for 600px */
 @media screen and (min-width: 600px) {
 	.col-1 {
 		width: 200px;
