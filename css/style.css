@@ -17,12 +17,24 @@ body {
   margin: auto;
 }
 
+.ad{
+  background-color: #8A817C;
+  padding:1px;
+  text-align: center;
+  font-size: 12px;
+  color: seashell;
+  border-style: double;
+  border-width: 7px;
+  width:47%;
+  margin: 10px;
+}
+
 /* Style the header */
 .header {
-  background-image: url("bac.jpg.jpg");
+  background-image: url("bac.jpg");
   background-color: #8A817C;
   padding: 2px;
-  margin: 5px;
+  margin: 8px;
   text-align: center;
   font-size: 15px;
   font-family: 'Playfair Display', serif;
@@ -49,6 +61,7 @@ body {
   text-decoration: underline;
   font-size:25px;
   color: White;
+  margin:8px;
 }
 
 
