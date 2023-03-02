@@ -181,8 +181,19 @@ img {
   border-color: SlateGrey;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   .col-1 {width: 200px; float: left;}
-  
   .ul {margin-left: 216px;}
+}
+
+@media screen and (max-width: 600px) {
+  .top {
+    float: none;
+    width: 100%;
+  }
+  
+@media screen and (max-width: 600px) {
+  .column-2 {
+    width: 100%;
+  }
 }
