@@ -1,114 +1,115 @@
 body {
-  font-family: 'Playfair Display', serif;
-  background-color: #F4F3EE;
-  padding: 10px;
+	font-family: 'Playfair Display', serif;
+	background-color: #F4F3EE;
+	padding: 10px;
 }
 
 /* Style the top */
 .top {
-  background-color: #8A817C;
-  padding:1px;
-  text-align: center;
-  font-size: 12px;
-  color: seashell;
-  border-style: double;
-  border-width: 7px;
-  width:60%;
-  margin: auto;
+	background-color: #8A817C;
+	padding: 1px;
+	text-align: center;
+	font-size: 12px;
+	color: seashell;
+	border-style: double;
+	border-width: 7px;
+	width: 60%;
+	margin: auto;
 }
 
-.ad{
-  background-color: #8A817C;
-  padding:1px;
-  text-align: center;
-  font-size: 13px;
-  color: seashell;
-  border-style: double;
-  border-width: 7px;
-  width:99%;
-  margin: 8px;
+.ad {
+	background-color: #8A817C;
+	padding: 1px;
+	text-align: center;
+	font-size: 13px;
+	color: seashell;
+	border-style: double;
+	border-width: 7px;
+	width: 99%;
+	margin: 8px;
 }
 
 /* Style the header */
 .header {
-  background-image: url("bac.jpg");
-  background-color: #8A817C;
-  padding: 2px;
-  margin: 8px;
-  text-align: center;
-  font-size: 15px;
-  font-family: 'Playfair Display', serif;
-  width: 100%;
-  color: white;
+	background-image: url("bac.jpg");
+	background-color: #8A817C;
+	padding: 2px;
+	margin: 8px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Playfair Display', serif;
+	width: 100%;
+	color: white;
 }
 
 /* Style the features */
-.info{
-  background-color: #BCB8B1;
-  padding: 2px;
-  margin: auto;
-  text-align: center;
-  font-size: 17px;
-  font-family: 'Playfair Display', serif;
-  width: 90%;
-  color: white;
-  border-style: double;
-  border-color: SlateGrey;
-  border-width: 4px;
+.info {
+	background-color: #BCB8B1;
+	padding: 2px;
+	margin: auto;
+	text-align: center;
+	font-size: 17px;
+	font-family: 'Playfair Display', serif;
+	width: 90%;
+	color: white;
+	border-style: double;
+	border-color: SlateGrey;
+	border-width: 4px;
 }
 
-.feature-head{
-  text-decoration: underline;
-  font-size:25px;
-  color: White;
-  margin:8px;
+.feature-head {
+	text-decoration: underline;
+	font-size: 25px;
+	color: White;
+	margin: 8px;
 }
 
 
-.head1{
-  text-decoration: underline;
-  font-size:25px;
-  color: White;
+.head1 {
+	text-decoration: underline;
+	font-size: 25px;
+	color: White;
 }
 
 /* Text Based Input */
-input[type=text], select {
+input[type=text],
+select {
 	width: 100%;
 	padding: 12px 20px;
-  	margin: 8px 0;
-  	display: inline-block;
-  	border: 2px solid #463F3A;
-  	border-radius: 4px;
-  	box-sizing: border-box;
+	margin: 8px 0;
+	display: inline-block;
+	border: 2px solid #463F3A;
+	border-radius: 4px;
+	box-sizing: border-box;
 }
 
 /* Submit Button Input */
 input[type=submit] {
-  	width: 100%;
-  	background-color: #463F3A;
-  	color: #F4F3EE;
-  	padding: 14px 20px;
-  	margin: 8px 0;
-  	border: none;
-  	border-radius: 4px;
-  	cursor: pointer;
+	width: 100%;
+	background-color: #463F3A;
+	color: #F4F3EE;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
 }
 
 /* Date of Birth Input */
-input[type=date]{
-	width:20%;
+input[type=date] {
+	width: 20%;
 	border: 2px solid #463F3A;
 	display: inline-block;
 	margin: 5px 0;
 	padding: 5px 5px;
 	box-sizing: border-box;
 	font-family: 'Playfair Display', serif;
-	font-size:11px;
+	font-size: 11px;
 }
 
 /* Email Address Input */
-input[type=email]{
-	width:100%;
+input[type=email] {
+	width: 100%;
 	border: 2px solid #463F3A;
 	display: inline-block;
 	margin: 5px 0;
@@ -118,45 +119,45 @@ input[type=email]{
 
 /* Submit Input Hover */
 input[type=submit]:hover {
-  	background-color: #45a049;
+	background-color: #45a049;
 }
 
 /* Overall Form Setup */
 .form {
-  	border-radius: 5px;
-  	background-color: #BCB8B1;
-  	padding: 20px;
-  	border-style: solid;
-  	color: White;
-  	border-color: SlateGrey;
-}
-
-.col-2{
 	border-radius: 5px;
 	background-color: #BCB8B1;
-  	padding: 20px;
-  	border-style: solid;
-  	border-color: SlateGrey;
-  	color: White;
-  	font-family: 'Playfair Display', serif;
-  	text-align: center;
-  	list-style-position: inside;
+	padding: 20px;
+	border-style: solid;
+	color: White;
+	border-color: SlateGrey;
 }
 
-ul{
-  font-family: 'Playfair Display', serif;
-  list-style-type: square;
+.col-2 {
+	border-radius: 5px;
+	background-color: #BCB8B1;
+	padding: 20px;
+	border-style: solid;
+	border-color: SlateGrey;
+	color: White;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	list-style-position: inside;
 }
 
-li{
-  font-family: 'Playfair Display', serif;
-  margin: 10px 0;
-  font-size: 18px;
+ul {
+	font-family: 'Playfair Display', serif;
+	list-style-type: square;
+}
+
+li {
+	font-family: 'Playfair Display', serif;
+	margin: 10px 0;
+	font-size: 18px;
 }
 
 /* Phone Number Input */
-input[type=tel]{
-	width:100%;
+input[type=tel] {
+	width: 100%;
 	border: 2px solid #463F3A;
 	display: inline-block;
 	margin: 5px 0;
@@ -165,35 +166,41 @@ input[type=tel]{
 }
 
 .row {
-  display: flex;
+	display: flex;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
-  flex: 50%;
-  padding: 10px;
+	flex: 50%;
+	padding: 10px;
 }
 
 img {
-  border-radius: 90%;
-  float: right;
-  border: 2px solid; 
-  border-color: SlateGrey;
+	border-radius: 90%;
+	float: right;
+	border: 2px solid;
+	border-color: SlateGrey;
 }
 
 @media screen and (min-width: 600px) {
-  .col-1 {width: 200px; float: left;}
-  .ul {margin-left: 216px;}
+	.col-1 {
+		width: 200px;
+		float: left;
+	}
+
+	.ul {
+		margin-left: 216px;
+	}
 }
 
 @media screen and (max-width: 600px) {
-  .top {
-    float: none;
-    width: 100%;
-  }
-  
-@media screen and (max-width: 600px) {
-  .column-2 {
-    width: 100%;
-  }
-}
+	.top {
+		float: none;
+		width: 100%;
+	}
+
+	@media screen and (max-width: 600px) {
+		.column-2 {
+			width: 100%;
+		}
+	}
