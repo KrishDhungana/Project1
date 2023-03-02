@@ -21,12 +21,12 @@ body {
   background-color: #8A817C;
   padding:1px;
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
   color: seashell;
   border-style: double;
   border-width: 7px;
-  width:100%;
-  margin: 10px;
+  width:99%;
+  margin: 8px;
 }
 
 /* Style the header */
@@ -50,7 +50,7 @@ body {
   text-align: center;
   font-size: 17px;
   font-family: 'Playfair Display', serif;
-  width: 95%;
+  width: 90%;
   color: white;
   border-style: double;
   border-color: SlateGrey;
@@ -179,4 +179,10 @@ img {
   float: right;
   border: 2px solid; 
   border-color: SlateGrey;
+}
+
+@media screen and (min-width: 480px) {
+  .col-1 {width: 200px; float: left;}
+  
+  .ul {margin-left: 216px;}
 }
