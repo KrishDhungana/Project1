@@ -1,7 +1,7 @@
-// A function to display a message
+// Function to display message
 function sayCode() {
    alert("USE DISCOUNT CODE: FULLCOURT");
 }
 
-// Call function on click of the button
+// Call the function
 document.getElementById("myBtn").onclick = sayCode;
